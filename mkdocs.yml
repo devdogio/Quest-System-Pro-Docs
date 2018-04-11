@@ -1,0 +1,5 @@
+site_name: Quest System Pro Docs
+repo_url: https://github.com/devdogio/Quest-System-Pro-Docs
+site_url: https://devdog.io
+markdown_extensions:
+ - admonition
