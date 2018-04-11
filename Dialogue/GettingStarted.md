@@ -24,4 +24,4 @@ At the bottom of the component there's a button "Create new dialogue". This will
 
 ## 4. Creating the dialogue
 
-[How to use the dialogue editor](http://devdog.io/unity-assets/quest-system-pro/documentation/dialogue/dialogue-editor)  is covered here.
+[How to use the dialogue editor](DialogueEditor.md) is covered here.

@@ -31,13 +31,13 @@ By default there are already databases available you can re-use. You can find th
 
 ## 3. Start creating quests
 
-All done, you can now  [create quests](http://devdog.io/unity-assets/quest-system-pro/documentation/quests/creating-a-quest)  and add them to your project. Remember that every scene that uses quests or dialogues needs to have the managers in that scene (you can use DontDestroyOnLoad).
+All done, you can now  [create quests]()  and add them to your project. Remember that every scene that uses quests or dialogues needs to have the managers in that scene (you can use DontDestroyOnLoad).
 
 ## 4. Player & Triggers
 
 Triggers are used to create objects in the world that can trigger a window or action. In Quest System Pro these triggers are used to start quests at NPC's, dialogues and more.
 
-The triggers require 2 things to work, the actual trigger, and the player to calculate the distance to the trigger.  [More about triggers here.](http://devdog.io/unity-assets/quest-system-pro/documentation/triggers)
+The triggers require 2 things to work, the actual trigger, and the player to calculate the distance to the trigger.  [More about triggers here.](CreatingQuest.md)
 
 ### 4.1 Setting up the player
 
