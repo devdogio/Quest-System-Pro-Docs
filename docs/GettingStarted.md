@@ -29,16 +29,17 @@ When you've added the QuestManager you'll see a new button at the bottom of the 
 
 By default there are already databases available you can re-use. You can find these in the  **QuestSystemPro / Demos / Files / Databases**  folder.
 
-## 3. Start creating quests
+## 3. Setting up the player
+
+Assign the Player and QuestSystemPlayer components to your character objects.
+If you're not using a player in your game (a puzzle game for example), just add the PlayerComponent to an empty object and ignore the range on all triggers.
+
+## 4. Start creating quests
 
 All done, you can now  [create quests](Quests/CreatingQuest.md)  and add them to your project. Remember that every scene that uses quests or dialogues needs to have the managers in that scene (you can use DontDestroyOnLoad).
 
-## 4. Player & Triggers
+## 5. Player & Triggers
 
 Triggers are used to create objects in the world that can trigger a window or action. In Quest System Pro these triggers are used to start quests at NPC's, dialogues and more.
 
 The triggers require 2 things to work, the actual trigger, and the player to calculate the distance to the trigger.  [More about triggers here.](Misc/Triggers.md)
-
-### 4.1 Setting up the player
-
-All that needs to be done is to add a Player component (Devdog.General.Player) to the object that represents your player. If you're not using a player in your game (a puzzle game for example), just add the PlayerComponent to an empty object and ignore the range on all triggers.
