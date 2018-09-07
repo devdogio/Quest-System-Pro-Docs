@@ -51,6 +51,9 @@ Triggers are used to create objects in the world that can trigger a window or ac
 
 The triggers require 2 things to work, the actual trigger, and the player to calculate the distance to the trigger.  [More about triggers here.](Misc/Triggers.md)
 
+!!! note
+	The main camera requires a `PhysicsRaycaster` with the "Ignore Raycasts" layer disabled for trigger clicks to get detected.
+
 ## 6. Demo UI
 
 To display UI you have to add a canvas (DialogueUI for dialogues and QuestUI for quests).

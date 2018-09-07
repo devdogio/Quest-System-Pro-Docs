@@ -3,6 +3,9 @@
 Object triggers can be used to trigger a window and bound them to a location in the world. For example, when the player opens a bank it is done so at a specific location in your game. When the player walks away the bank window will auto. be closed and won't be able to be re-opened until the player is in range of the bank again.
 
 !!! note
+	The main camera requires a `PhysicsRaycaster` with the "Ignore Raycasts" layer disabled for trigger clicks to get detected.
+
+!!! note
 	The trigger distance can be managed in the general settings object.
 
 -   **Trigger mouse click** activates the window when the triggerer is clicked.
