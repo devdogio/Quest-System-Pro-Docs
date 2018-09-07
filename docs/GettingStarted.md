@@ -10,12 +10,16 @@ To initialize Quest System Pro you need to add the managers to your scene.
 
 First, create a new object (name doesn't matter) and attach the following components to it:
 
+-   AudioManager
+-	GeneralSettingsManager
+-	PlayerManager
+-	InputManager
+-	TriggerManager
+-   LocalizationManager
 -   QuestManager
 -   DialogueManager
--   AudioManager
--   LocalizationManager
 
-These 3 managers initialize the quest system and handle all events and so on.
+These managers initialize the quest system and handle all events and so on.
 
 ## 2. Setting the databases
 
@@ -26,8 +30,11 @@ Next, you'll need to add the databases to the QuestManager. There are 3 database
 -   QuestDatabase: Contains all quests and achievements.
 
 When you've added the QuestManager you'll see a new button at the bottom of the inspector "Generate and link databases". When you click this a folder selection window will show up. Once you've selected a location to save the new databases they'll auto. be generated and added to your managers object.
-
 By default there are already databases available you can re-use. You can find these in the  **QuestSystemPro / Demos / Files / Databases**  folder.
+
+### 2.1 Genearl settings database
+
+Create a General settings database under Assets/Devdog/General Settings database and link it to your GeneralSettingsManager.
 
 ## 3. Setting up the player
 
