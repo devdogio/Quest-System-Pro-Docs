@@ -34,7 +34,7 @@ By default there are already databases available you can re-use. You can find th
 
 ### 2.1 Genearl settings database
 
-Create a General settings database under Assets/Devdog/General Settings database and link it to your GeneralSettingsManager.
+Create a General settings database in your assets directory through Create/Devdog/General Settings and link it to your GeneralSettingsManager.
 
 ## 3. Setting up the player
 
@@ -50,3 +50,10 @@ All done, you can now  [create quests](Quests/CreatingQuest.md)  and add them to
 Triggers are used to create objects in the world that can trigger a window or action. In Quest System Pro these triggers are used to start quests at NPC's, dialogues and more.
 
 The triggers require 2 things to work, the actual trigger, and the player to calculate the distance to the trigger.  [More about triggers here.](Misc/Triggers.md)
+
+## 6. Demo UI
+
+To display UI you have to add a canvas (DialogueUI for dialogues and QuestUI for quests).
+There's default prefabs that you can use under Assets/Devdog/QuestSystemPro/Designs/RPGStyle/WindowPrefabs
+
+Make sure your windows are inside a canvas. If you do not already have a canvas create one in your scene by going to Create / UI / Canvas; Then place the prefabs inside this newly created canvas object.
