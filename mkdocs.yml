@@ -3,5 +3,7 @@ site_author: Devdog
 repo_url: https://github.com/devdogio/Quest-System-Pro-Docs
 site_url: https://devdog.io
 
+theme: readthedocs
+
 markdown_extensions:
  - admonition
