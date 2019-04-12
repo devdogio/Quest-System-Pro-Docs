@@ -15,7 +15,7 @@ public class MyRewardGiver : IRewardGiver
 
 	public ConditionInfo CanGiveRewards(Quest quest)
 	{
-		return true;
+		return ConditionInfo.success;
 	}
 
 	public void GiveRewards(Quest quest)
